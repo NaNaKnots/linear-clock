@@ -32,7 +32,7 @@ function updateClock() {
 
   // Update the timeline
   document.getElementById("progress")
-      .style.width = progress + '%";
+      .style.width = progress + "%";
 
   document.getElementById("time-marker")
       .style.left = progress + "%";
