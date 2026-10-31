@@ -1,3 +1,4 @@
+console.log("Linear Clock JavaScript loaded!");
 function updateClock() {
   const now = new Date();
 
