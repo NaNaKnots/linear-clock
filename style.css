@@ -1,3 +1,13 @@
+:root {
+  --page-bg: #15151f;
+  --clock-bg: #242435;
+  --text-color: #ffffff;
+  --accent-color: #b197fc;
+  --secondary-color: #c8b6ff;
+  --muted-color: #aaaabc;
+  --track-color: #505065;
+}
+
 * {
   box-sizing: border-box;}
 body {
