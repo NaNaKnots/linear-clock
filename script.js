@@ -39,11 +39,11 @@ function updateClock() {
 
   // Display today's date
   const date = now.toLocaleDateString("en-US", {
-    weekday: "long",
-    month: "long",
-    day: "numberic",
-    year: "numeric",
-  });
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+        year: "numeric"
+    });
 
   document.getElementByID("current-date")
       .textContent = date;
