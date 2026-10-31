@@ -38,7 +38,7 @@ function updateClock() {
       .style.left = progress + "%";
 
   // Display today's date
-  const date = now.toLocalDateString("en-US", {
+  const date = now.toLocaleDateString("en-US", {
     weekday: "long",
     month: "long",
     day: "numberic",
