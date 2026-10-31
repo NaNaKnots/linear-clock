@@ -45,7 +45,7 @@ function updateClock() {
         year: "numeric"
     });
 
-  document.getElementByID("current-date")
+  document.getElementById("current-date")
       .textContent = date;
 }
 
