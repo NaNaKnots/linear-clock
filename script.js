@@ -55,3 +55,27 @@ updateClock();
 // Update every second
 setInterval(updateClock, 1000);
   
+function createHourTicks() {
+  const tickContainer =
+      document.getElementById("hour-ticks");
+
+  for (let hour = 0; hour <= 24; hour++) {
+      const tick = document.createElement("div");
+
+      tick.classList.add("hour-tick");
+
+      // Calculate position on the timeline
+      const position = (hour / 24) * 100;
+
+      tick.style.left = position + "%";
+
+      // Make every sixth hour more visible
+      if (hour % 6 === 0) {
+          tick.classList.add("major");
+      }
+
+      tickContainer.appendChild(tick);
+  }
+}
+
+createHourTicks();
