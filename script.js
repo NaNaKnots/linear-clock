@@ -123,7 +123,7 @@ const themes = {
 };
 
 function applyTheme(themeName) {
-  const theme - themes[themeName];
+  const theme = themes[themeName];
 
   if (!theme) return;
 
